@@ -7,6 +7,8 @@ var app = require('../app')
   , server = null
   , should = require('should');
 
+require('../testhelper');
+
 describe('server',function(){
     it('should be up',function(done){
       browser.visit('/',function(){
