@@ -52,7 +52,7 @@
 <div class="row-fluid">
 {% for img in site.data.images.finished %} 
 <div class="span2">
-<a href="http://stephanieandgreg-us.s3-us-west-2.amazonaws.com/wedding/finished/edited/{{ img.src }}-small.jpg" data-gallery="#blueimp-gallery"><img alt="Engagement Photo Thumbnail" src="http://stephanieandgreg-us.s3-us-west-2.amazonaws.com/wedding/finished/edited/{{ img.src }}-thmb.jpg"></a>
+<a href="{{ site.data.config.s3.finished }}/{{ img.src }}-small.jpg" data-gallery="#blueimp-gallery"><img alt="Engagement Photo Thumbnail" src="{{ site.data.config.s3.finished }}/{{ img.src }}-thmb.jpg"></a>
 </div>
 {% cycle '', '', '', '', '', '</div><div class="row-fluid">' %}
 {% endfor %}
