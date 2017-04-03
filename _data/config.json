@@ -1,7 +1,7 @@
 {
   "s3": {
-    "finished": "http://stephanieandgreg-us.s3-us-west-2.amazonaws.com/wedding/finished/edited",
-    "wedding": "http://stephanieandgreg-us.s3-us-west-2.amazonaws.com/wedding",
-    "engagement": "http://stephanieandgreg-us.s3-us-west-2.amazonaws.com"
+    "finished": "https://storage.googleapis.com/stephanieandgreg-us/wedding/finished/edited",
+    "wedding": "https://storage.googleapis.com/stephanieandgreg-us/wedding",
+    "engagement": "https://storage.googleapis.com/stephanieandgreg-us/"
   }
 }
